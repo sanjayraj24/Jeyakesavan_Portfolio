@@ -62,7 +62,7 @@ const skills = {
     "Look Development",
     "Compositing",
     "UV Unwrapping",
-    "Asset Optimization"
+    "Asset Optimization" ]
 };
 
 const skillLevels = [
@@ -421,6 +421,7 @@ const App = () => {
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<App />);
+
 
 
 
