@@ -6,8 +6,8 @@ const projects = [
     year: "2025",
     tools: ["Blender"],
     images: [
-      "./assets/kitcheninterior1.png",
-      "./assets/kitcheninterior2.jpeg",
+      "kitcheninterior1.png",
+      "kitcheninterior2.jpeg",
     ],
   },
   {
@@ -17,9 +17,9 @@ const projects = [
     year: "2025",
     tools: ["Blender"],
     // Replace this with your real video URL (YouTube embed or .mp4)
-    videoUrl: "./assets/firstvideo.mp4",
+    videoUrl: "firstvideo.mp4",
     images: [
-      "./assets/ST.png",
+      "ST.png",
     ],
   },
   {
@@ -29,11 +29,11 @@ const projects = [
     year: "2025",
     tools: ["Blender"],
     images: [
-      "./assets/rajdoot_output_1.png",
-      "./assets/rajdoot_output_2.png",
-      "./assets/rajdoot_output_3.png",
-      "./assets/rajdoot_output_4.png",
-      "./assets/rajdoot_output_5.png",
+      "rajdoot_output_1.png",
+      "rajdoot_output_2.png",
+      "rajdoot_output_3.png",
+      "rajdoot_output_4.png",
+      "rajdoot_output_5.png",
     ],
   },
   {
@@ -43,11 +43,11 @@ const projects = [
     year: "2026",
     tools: ["Blender"],
     images: [
-      "./assets/LR1.png",
-      "./assets/LR2.png",
-      "./assets/LR3.png",
-      "./assets/LR4.png",
-      "./assets/LR5.png",
+      "LR1.png",
+      "LR2.png",
+      "LR3.png",
+      "LR4.png",
+      "LR5.png",
     ],
   },
 ];
@@ -415,4 +415,5 @@ const App = () => {
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<App />);
+
 
