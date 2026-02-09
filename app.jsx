@@ -53,10 +53,16 @@ const projects = [
 ];
 
 const skills = {
-  "3D Software": ["Blender","Maya"],
-  Rendering: ["Octane", "Redshift", "Cycles", "Corona"],
-  "Texturing & Sculpting": ["Substance Painter", "ZBrush", "Mari"],
-  Workflow: ["Art Direction", "Lighting", "Look Dev", "Compositing"],
+   "3D Software": ["Blender"],
+  "Rendering": ["Cycles", "Eevee"],
+  "Texturing & Sculpting": ["Blender Sculpt Mode", "Texture Paint"],
+  "Workflow": [
+    "Modeling",
+    "Lighting",
+    "Look Development",
+    "Compositing",
+    "UV Unwrapping",
+    "Asset Optimization"
 };
 
 const skillLevels = [
@@ -381,7 +387,7 @@ const ContactSection = () => {
         </div>
         <div className="contact__actions">
           <a href="mailto:pasupathikesavan863@gmail.com" className="btn btn--primary">
-            Email the studio
+            Email Me
           </a>
         </div>
       </div>
@@ -415,5 +421,6 @@ const App = () => {
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<App />);
+
 
 
